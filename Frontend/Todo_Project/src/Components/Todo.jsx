@@ -65,7 +65,7 @@ const Todo = () => {
                 <tr key={todo._id}>
                   <td style={{transform:"scale(1.2)"}}><input type="checkbox" /></td>
                   <td><h3>{todo.task}</h3></td>
-                  <td><button className='edit'>Edit</button></td>
+                  <td><button className='edit'>edit</button></td>
                   <td><button onClick={()=>handleDelete(todo._id)} className='delete'>Delete</button></td>
                 </tr>
               ))}
