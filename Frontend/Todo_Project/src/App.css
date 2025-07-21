@@ -1,0 +1,91 @@
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding: 15px;
+  border: 1px solid gray;
+}
+
+.Todo .To{
+   color: gray;
+}
+
+.Todo .Do{
+  color: brown;
+}
+
+.insert{
+ display: flex;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px ;
+}
+
+.insert input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: beige;
+  color: brown;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.insert input:focus{
+border-color: brown;
+}
+
+.insert button{
+  width: 20%;
+  border-radius: 50px;
+  background-color: brown ;
+  color: white;
+}
+
+.parentodo{
+  background-color: beige;
+  color: brown;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid brown;
+  border-radius: 10px;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+}
+
+th{
+  font-size: larger;
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.delete{
+  width: 80px;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+  border: 1px solid brown;
+  padding: 3px;
+}
+
+.edit{
+  width: 80px;
+  border-radius: 10px;
+  background-color: brown;
+  color: white;
+  border: 1px solid brown;
+  padding: 3px;
+}
